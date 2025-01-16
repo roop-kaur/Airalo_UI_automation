@@ -90,11 +90,16 @@ npx cypress open
 
 - Verify the coverage, data, validity, and price details.
 
-
-
 ---
 
-Notes: During the preparation of test cases, several edge cases were identified that could enhance the robustness and coverage of the tests. However, due to time constraints, these edge cases have not been addressed in the current implementation. Addressing them in the future would ensure a more comprehensive validation of the application.
+### Notes
+During the preparation of test cases, several edge cases were identified that could enhance the robustness and coverage of the tests. However, due to time constraints, these edge cases have not been addressed in the current implementation. Addressing them in the future would ensure a more comprehensive validation of the application.
+
+### Uncovered Push Notification Test Case:
+Issue: During the implementation of the automation script, a push notification pop-up was observed on the first visit to the website. However, after interacting with it once, the notification no longer appeared, and I was unable to reproduce it.
+Efforts Made:
+Attempted to clear cookies and local storage in the script to simulate a first-time visit (cy.clearCookies() and cy.clearLocalStorage()).
+I could not reliably reproduce it. This test case is currently excluded from the script.
 
 ## 📚 Technology Stack
 
