@@ -7,7 +7,6 @@ describe('Airalo UI Automation Test', () => {
   it('Should automate the Airalo website functionalities', () => {
     // Step 1: Visit the website
     homePage.visit();
-    cy.wait(2000); // Wait for the page to load
 
     // Step 2: Accept cookies
     homePage.acceptCookies();
@@ -18,20 +17,14 @@ describe('Airalo UI Automation Test', () => {
 
     // Step 4: Change the language to English
     languagePage.changeLanguageToEnglish();
-    cy.wait(2000);
-
+    
     // Step 5: Change the currency to USD
     currencyPage.openCurrencySelector();
-    cy.wait(2000);
     currencyPage.selectUSD();
-    cy.wait(2000);
     currencyPage.updateCurrency();
-    cy.wait(2000);
 
     // Step 6: Search for Japan
     homePage.searchForCountry('Japan');
-    cy.wait(2000);
-
 
     // Step 7: Select the second eSIM package
     packagePage.selectSecondPackage();

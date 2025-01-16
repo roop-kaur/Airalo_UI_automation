@@ -12,8 +12,8 @@ class HomePage {
     }
   
     searchForCountry(countryName) {
-      cy.get("input[data-testid='search-input']").should('be.visible').type(countryName);
-      cy.get(`span[data-testid='${countryName}-name']`).should('contain', countryName).click();
+      cy.get("[data-testid='search-input']").should('be.visible').type(countryName);
+      cy.get(`[data-testid='${countryName}-name']`).should('contain', countryName).click();
     }
   }
   

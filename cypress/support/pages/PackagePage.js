@@ -4,7 +4,7 @@ class PackagePage {
     }
   
     verifyPackageDetails(expectedDetails) {
-        cy.get("div[data-testid='package-detail']", { timeout: 20000 })
+        cy.get("[data-testid='package-detail']", { timeout: 20000 })
         .scrollIntoView()
          .within(() => {
           cy.contains('Moshi Moshi').should('be.visible');

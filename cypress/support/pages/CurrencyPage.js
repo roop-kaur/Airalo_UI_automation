@@ -1,14 +1,14 @@
 class CurrencyPage {
     openCurrencySelector() {
-      cy.get("span[data-testid='€ EUR-header-language']").click();
+      cy.get("[data-testid='€ EUR-header-language']").click();
     }
   
     selectUSD() {
-      cy.get('a[data-testid="USD-currency-select"]').should('be.visible').click();
+      cy.get("[data-testid='USD-currency-select']").should('be.visible').click();
     }
   
     updateCurrency() {
-      cy.get('button[data-testid="UPDATE-button"]').should('be.visible').click();
+      cy.get("[data-testid='UPDATE-button']").should('be.visible').click();
     }
   }
   
