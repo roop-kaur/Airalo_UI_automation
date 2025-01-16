@@ -1,7 +1,7 @@
-import { homePage } from '../Support/Pages/HomePage';
-import { languagePage } from '../Support/Pages/LanguagePage';
-import { currencyPage } from '../Support/Pages/CurrencyPage';
-import { packagePage } from '../Support/Pages/PackagePage';
+import { homePage } from '../../support/pages/HomePage';
+import { languagePage } from '../../support/pages/LanguagePage';
+import { currencyPage } from '../../support/pages/CurrencyPage';
+import { packagePage } from '../../support/pages/PackagePage';
 
 describe('Airalo UI Automation Test', () => {
   it('Should automate the Airalo website functionalities', () => {
