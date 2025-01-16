@@ -33,8 +33,8 @@ cypress/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/airalo-ui-automation.git
-   cd airalo-ui-automation
+   git clone https://github.com/your-username/Airalo-UI-automation.git
+   cd Airalo-UI-automation
    ```
 
 2. Install dependencies:
