@@ -1,7 +1,7 @@
 
 # Airalo UI Automation Tests
 
-This repository contains automated UI test cases for the Airalo website using **Cypress** and the **Page Object Model (POM)** design pattern. The tests cover functionality such as : launching Airalo website, Search country, changing language and currency as per location, selecting an eSIM package, verifying the package details.
+This repository contains automated UI test cases for the Airalo website using **Cypress** and the **Page Object Model (POM)** design pattern. The tests cover functionality such as: launching the Airalo website, searching country, changing language and currency as per location, selecting an eSIM package, and verifying the package details.
 
 ---
 
@@ -99,7 +99,7 @@ Notes: During the preparation of test cases, several edge cases were identified 
 ## 📚 Technology Stack
 
 - **Cypress**: JavaScript-based end-to-end testing framework.
-- **Page Object Model (POM)**: Design pattern for test automation to improve reusability and maintainability.
+- **Page Object Model (POM)**: A design pattern for test automation to improve reusability and maintainability.
 
 ---
 
@@ -110,27 +110,6 @@ The repository uses page objects to separate test logic from UI element interact
 
 ### Custom Commands
 You can define custom Cypress commands in `cypress/support/commands.js` to further streamline test development.
-
----
-
-## 🤝 Contribution
-
-Contributions are welcome! To contribute:
-
-1. Fork this repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add your message here"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/your-feature
-   ```
-5. Create a pull request.
 
 ---
 
