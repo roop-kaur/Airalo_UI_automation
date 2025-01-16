@@ -1,7 +1,7 @@
 class LanguagePage {
     changeLanguageToEnglish() {
       cy.get("span[data-testid='Deutsch-header-language']").click();
-      cy.get('a[data-testid="English-language"]').should('be.visible').click();
+      cy.get('a[data-testid="English-language"]').scrollIntoView().should('be.visible').click();
     }
   }
   
